@@ -60,3 +60,25 @@
 .btn-dark {
   background-color: var(--dark-color);
 }
+
+.primary-color {
+  color: var(--primary-color);
+}
+.light-primary-color {
+  color: var(--light-primary-color);
+}
+.secondary-color {
+  color: var(--secondary-color);
+}
+.light-secondary-color {
+  color: var(--light-secondary-color);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+.nav-current {
+  background-color: var(--light-primary-color);
+}
