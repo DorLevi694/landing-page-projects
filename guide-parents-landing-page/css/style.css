@@ -74,7 +74,56 @@ header .header-img {
 main {
   /* background-color: var(--light-primary-color); */
 }
+/* Section - a */
+.section-a,
+.section-b,
+.section-c {
+  display: flex;
+  margin: auto;
+  padding: 1rem;
+  align-items: center;
+  text-align: right;
+}
+.section-a > .container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 1rem;
+}
+.section-a > .container > div {
+  text-align: center;
+  color: var(--primary-color);
+}
 
+.section-b {
+  width: 100%;
+  background-color: var(--grey-color);
+  color: var(--light-color);
+  padding: 2rem 0;
+}
+.section-b > .container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+.section-b > .container > div {
+  text-align: center;
+  color: var(--dark-primary-color);
+}
+
+.section-c {
+  background-color: var(--dark-primary-color);
+  color: var(--light-color);
+}
+
+.section-c > .container {
+  width: 50%;
+}
+.section-c > .container > div {
+  text-align: center;
+  color: var(--dark-color);
+  padding: 1.8rem 0;
+}
 footer {
   display: grid;
   background-color: var(--secondary-color);

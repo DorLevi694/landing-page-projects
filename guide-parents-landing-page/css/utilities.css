@@ -82,6 +82,17 @@
   font-size: 1.6rem;
 }
 
+.btn {
+  /* width: 150px; */
+  padding: 0.7rem;
+  margin: auto;
+  background-color: var(--dark-primary-color);
+  color: var(--light-color);
+  font-weight: 600;
+}
+.btn:hover {
+  opacity: 0.8;
+}
 .btn-dark {
   background-color: var(--dark-color);
 }
