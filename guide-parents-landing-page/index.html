@@ -26,7 +26,7 @@
         <div class="header-img"> </div>
     </header>
     <main>
-        <div class="section-a">
+        <section class="section-a">
             <div class="container">
                 <div class="section-title">הדרכת הורים בליווי אישי ופרטני - שיטת ההקשרות</div>
                 <p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול,
@@ -44,11 +44,11 @@
                     ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. קוויז דומור ליאמום בלינך חקיגו רוגצה.
                 </p>
                 <div class="small-section-title">צרו קשר לטיפול אישי ופרטני - טיפול מותאם למשפחה שלכם</div>
-                <a href="#Contact" class="btn">דבר איתי</a>
+                <a href="#contact" class="btn">דבר איתי</a>
 
             </div>
-        </div>
-        <div class="section-b">
+        </section>
+        <section class="section-b">
             <div class="container">
 
                 <div class="section-title">שיטת ההקשרות</div>
@@ -69,8 +69,8 @@
                 </p>
 
             </div>
-        </div>
-        <div class="section-c">
+        </section>
+        <section class="section-c">
             <div class="container">
 
                 <div class="section-title">קצת עלי</div>
@@ -85,11 +85,28 @@
                     אני מלכה אני מלכה אני מלכה אני מלכה אני מלכה אני מלכה אני מלכה אני מלכה אני מלכה אני מלכה אני מלכה
                     אני מלכה אני מלכה אני מלכה אני מלכה אני מלכה אני מלכה אני מלכה אני מלכה
                 </p>
+                <a href="#contact" class="btn btn-dark">לפרטים לחץ כאן</a>
 
             </div>
-        </div>
 
+        </section>
+        <section id="contact">
+            <div class="container">
+                <p class="small-section-title">You can reach me here</p>
+                <form name="contact-form" method="POST" data-netlify="true">
+                    <input type="text" name="name" id="form-name" placeholder="שם מלא" />
+                    <input type="email" name="email" id="form-email" placeholder="דואר אלקטרוני" />
+                    <input type="text" name="subject" id="form-subject" placeholder="סיבת פנייה" />
+                    <input type="text" name="phone" id="form-phone" placeholder="טלפון" />
+                    <textarea type="textarea" name="message" id="form-message"
+                        placeholder="כאן המקום לפרט.."></textarea>
+                    <input type="submit" value="Submit" id="form-btn-submit" class="btn btn-dark" />
+                </form>
+
+            </div>
+        </section>
     </main>
+
     <footer>
         <div class="container">
             <p id="Contact">All Right Reserved &copy; 2023 </p>

@@ -90,8 +90,10 @@
   color: var(--light-color);
   font-weight: 600;
 }
-.btn:hover {
+.btn:hover,
+i:hover {
   opacity: 0.8;
+  cursor: pointer;
 }
 .btn-dark {
   background-color: var(--dark-color);
