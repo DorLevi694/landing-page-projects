@@ -1,6 +1,5 @@
 @import url(./config.css);
 @import url(./utilities.css);
-
 * {
   margin: 0px;
   padding: 0px;
@@ -70,6 +69,14 @@ header .header-img {
   background: var(--header-img) no-repeat center center / cover;
   height: 50vh;
   width: 100%;
+}
+
+header nav ul {
+  display: none;
+}
+header nav {
+  display: inline-block;
+  padding: 0.5rem 0;
 }
 
 main {
@@ -172,10 +179,11 @@ footer {
 }
 
 footer > div {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
   width: 100%;
   align-items: center;
+  justify-content: space-between;
 }
 
 footer ul {

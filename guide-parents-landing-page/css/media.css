@@ -1,0 +1,41 @@
+@media (max-width: 750px) {
+  main > .section-c > .container {
+    width: 70%;
+    color: blue;
+  }
+}
+
+@media (max-width: 500px) {
+  .section-a {
+    text-align: center;
+  }
+  main > .section-c > .container {
+    width: 100%;
+  }
+
+  #contact > .container > form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 380px) {
+  header nav,
+  header nav ul li {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  footer > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer > div ul {
+    display: flex;
+
+    flex-direction: row;
+  }
+}
